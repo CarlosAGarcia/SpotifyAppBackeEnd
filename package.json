@@ -1,0 +1,32 @@
+{
+  "name": "spotifyappbackend",
+  "version": "1.0.0",
+  "description": "BackEnd for name sake",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosAGarcia/SpotifyAppBackeEnd.git"
+  },
+  "keywords": [
+    "spotify",
+    "server",
+    "api",
+    "nodejs",
+    "js",
+    "express"
+  ],
+  "author": "Carlos A Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosAGarcia/SpotifyAppBackeEnd/issues"
+  },
+  "homepage": "https://github.com/CarlosAGarcia/SpotifyAppBackeEnd#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
