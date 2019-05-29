@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "BackEnd for name sake",
   "main": "app.js",
+  "module": "main.js",
   "scripts": {
+    "start": "nodemon --exec babel-node app.js",
     "test": "test"
   },
   "repository": {
@@ -25,8 +27,16 @@
   },
   "homepage": "https://github.com/CarlosAGarcia/SpotifyAppBackeEnd#readme",
   "dependencies": {
+    "@std/esm": "^0.26.0",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
   }
 }
